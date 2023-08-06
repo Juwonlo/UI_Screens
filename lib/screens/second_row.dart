@@ -12,7 +12,7 @@ class SecondRow extends StatefulWidget {
 class _SecondRowState extends State<SecondRow> {
   @override
   Widget build(BuildContext context) {
-    return Padding(padding: EdgeInsets.only(left:45, right: 65, top: 20, bottom: 20),
+    return Padding(padding: EdgeInsets.only(left:45, right: 65, top: 0, bottom: 10),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: <Widget>[

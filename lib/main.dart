@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ui_screens/screens/dropdown.dart';
 import 'package:ui_screens/screens/first_container.dart';
+import 'package:ui_screens/screens/fourth_row.dart';
 import 'package:ui_screens/screens/last_row.dart';
 import 'package:ui_screens/screens/second_row.dart';
+import 'package:ui_screens/screens/six_row.dart';
 import 'package:ui_screens/screens/third_row.dart';
 
 void main() {
@@ -50,10 +52,13 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
                 SlidableContainerScreen(),
             SecondRow(),
+            SizedBox(height: 8,),
             ThirdRow(),
             SizedBox(height: 8,),
-            //CustomDropdownMenuExample(),
-            //TwoContainerExample(),
+            FourthRow(),
+            SizedBox(height: 8,),
+            SixRow(),
+            SizedBox(height: 8,),
             LastRow(),
           ],
         ),

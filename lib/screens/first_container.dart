@@ -140,14 +140,13 @@ class _SlidableContainerScreenState extends State<SlidableContainerScreen> {
       ),
       child: Container(
         width: MediaQuery.sizeOf(context).width,
-        height: MediaQuery.sizeOf(context).height / 3.6,
+       height: MediaQuery.sizeOf(context).height / 3.6,
+
         child: Column(
           children: [
             Stack(
               children: [
                    Container(
-                    // width: 200,
-                    // height: 100,
                     width: MediaQuery.sizeOf(context).width, // Adjust container width
                     height: MediaQuery.sizeOf(context).height / 4, //
                     child:
