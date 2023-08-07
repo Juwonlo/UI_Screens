@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ui_screens/screens/constant.dart';
-import 'package:ui_screens/screens/dropdown.dart';
+import 'package:ui_screens/screen_one/constant.dart';
+import 'package:ui_screens/screen_one/dropdown.dart';
 
 
 class LastRow extends StatefulWidget {

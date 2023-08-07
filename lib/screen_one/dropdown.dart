@@ -230,7 +230,7 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:ui_screens/screens/constant.dart';
+import 'package:ui_screens/screen_one/constant.dart';
 
 class TwoContainerExample extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_screens/screens/constant.dart';
+import 'package:ui_screens/screen_one/constant.dart';
 
 class ThirdRow extends StatefulWidget {
   const ThirdRow({Key? key}) : super(key: key);

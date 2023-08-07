@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:ui_screens/screens/dropdown.dart';
-import 'package:ui_screens/screens/first_container.dart';
-import 'package:ui_screens/screens/fourth_row.dart';
-import 'package:ui_screens/screens/last_row.dart';
-import 'package:ui_screens/screens/second_row.dart';
-import 'package:ui_screens/screens/six_row.dart';
-import 'package:ui_screens/screens/third_row.dart';
+import 'package:ui_screens/screen_one/dropdown.dart';
+import 'package:ui_screens/screen_one/first_container.dart';
+import 'package:ui_screens/screen_one/fourth_row.dart';
+import 'package:ui_screens/screen_one/last_row.dart';
+import 'package:ui_screens/screen_one/second_row.dart';
+import 'package:ui_screens/screen_one/six_row.dart';
+import 'package:ui_screens/screen_one/third_row.dart';
 
 void main() {
   runApp(const MyApp());
