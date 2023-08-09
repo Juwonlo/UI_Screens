@@ -6,6 +6,8 @@ import 'package:ui_screens/screen_one/last_row.dart';
 import 'package:ui_screens/screen_one/second_row.dart';
 import 'package:ui_screens/screen_one/six_row.dart';
 import 'package:ui_screens/screen_one/third_row.dart';
+import 'package:ui_screens/screen_two/TwoContainer.dart';
+import 'package:ui_screens/screen_two/drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,26 +46,43 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      // appBar: AppBar(
+      //   title: Text('Drawer Example'),
+      //   leading: IconButton(
+      //     icon: Icon(Icons.menu),
+      //     onPressed: toggleDrawer,
+      //   ),
+      // ),
+      //drawer: MyHomePage(),
+      body : MyPage(),
 
-      body: SingleChildScrollView(
-        scrollDirection: Axis.vertical,
-        child: Column(
-
-          children: <Widget>[
-                SlidableContainerScreen(),
-            SecondRow(),
-            SizedBox(height: 8,),
-            ThirdRow(),
-            SizedBox(height: 8,),
-            FourthRow(),
-            SizedBox(height: 8,),
-            SixRow(),
-            SizedBox(height: 8,),
-            LastRow(),
-          ],
-        ),
-      ),
-
+      //HomePage(),
     );
+
+      // SingleChildScrollView(
+      //   scrollDirection: Axis.vertical,
+      //   child: Column(
+      //
+      //     children: <Widget>[
+            ///Screen One
+            //     SlidableContainerScreen(),
+            // SecondRow(),
+            // SizedBox(height: 8,),
+            // ThirdRow(),
+            // SizedBox(height: 8,),
+            // FourthRow(),
+            // SizedBox(height: 8,),
+            // SixRow(),
+            // SizedBox(height: 8,),
+            // LastRow(),
+
+
+            ///Screen two
+           // MyHomePage(),
+    //       ],
+    //     ),
+    //   ),
+    //
+    // );
   }
 }
