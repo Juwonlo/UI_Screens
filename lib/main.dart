@@ -7,6 +7,7 @@ import 'package:ui_screens/screen_one/second_row.dart';
 import 'package:ui_screens/screen_one/six_row.dart';
 import 'package:ui_screens/screen_one/third_row.dart';
 import 'package:ui_screens/screen_two/TwoContainer.dart';
+import 'package:ui_screens/screen_two/bottom_nav_bar.dart';
 import 'package:ui_screens/screen_two/drawer.dart';
 
 void main() {
@@ -23,66 +24,72 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
+
+      //BottomNavBar(),
+
+      //MyPage(),
+
+      //const MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key,});
-
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-
-
-  @override
-  Widget build(BuildContext context) {
-
-    return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Drawer Example'),
-      //   leading: IconButton(
-      //     icon: Icon(Icons.menu),
-      //     onPressed: toggleDrawer,
-      //   ),
-      // ),
-      //drawer: MyHomePage(),
-      body : MyPage(),
-
-      //HomePage(),
-    );
-
-      // SingleChildScrollView(
-      //   scrollDirection: Axis.vertical,
-      //   child: Column(
-      //
-      //     children: <Widget>[
-            ///Screen One
-            //     SlidableContainerScreen(),
-            // SecondRow(),
-            // SizedBox(height: 8,),
-            // ThirdRow(),
-            // SizedBox(height: 8,),
-            // FourthRow(),
-            // SizedBox(height: 8,),
-            // SixRow(),
-            // SizedBox(height: 8,),
-            // LastRow(),
-
-
-            ///Screen two
-           // MyHomePage(),
-    //       ],
-    //     ),
-    //   ),
-    //
-    // );
-  }
-}
+// class MyHomePage extends StatefulWidget {
+//   const MyHomePage({super.key,});
+//
+//
+//   @override
+//   State<MyHomePage> createState() => _MyHomePageState();
+// }
+//
+// class _MyHomePageState extends State<MyHomePage> {
+//
+//
+//   @override
+//   Widget build(BuildContext context) {
+//
+//     return Scaffold(
+//       // appBar: AppBar(
+//       //   title: Text('Drawer Example'),
+//       //   leading: IconButton(
+//       //     icon: Icon(Icons.menu),
+//       //     onPressed: toggleDrawer,
+//       //   ),
+//       // ),
+//       //drawer: MyHomePage(),
+//       body : PageTwo(),
+//
+//       //HomePage(),
+//     );
+//
+//       // SingleChildScrollView(
+//       //   scrollDirection: Axis.vertical,
+//       //   child: Column(
+//       //
+//       //     children: <Widget>[
+//             ///Screen One
+//             //     SlidableContainerScreen(),
+//             // SecondRow(),
+//             // SizedBox(height: 8,),
+//             // ThirdRow(),
+//             // SizedBox(height: 8,),
+//             // FourthRow(),
+//             // SizedBox(height: 8,),
+//             // SixRow(),
+//             // SizedBox(height: 8,),
+//             // LastRow(),
+//
+//
+//             ///Screen two
+//            // MyHomePage(),
+//     //       ],
+//     //     ),
+//     //   ),
+//     //
+//     // );
+//   }
+// }
