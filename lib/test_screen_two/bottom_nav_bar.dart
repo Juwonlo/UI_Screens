@@ -492,14 +492,6 @@ class _MyHomePageState extends State<MyHomePage> {
                  ],
                ),
           ),
-          Align(
-            alignment: Alignment.topCenter,
-            child: Container(
-              height: 10, // Adjust the height of the tab controller bar as needed
-              color: Colors.blue, // Color of the tab controller bar
-              width: double.infinity,
-            ),
-          ),
         ],
       ),
     );

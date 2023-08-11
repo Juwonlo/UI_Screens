@@ -6,9 +6,10 @@ import 'package:ui_screens/screen_one/last_row.dart';
 import 'package:ui_screens/screen_one/second_row.dart';
 import 'package:ui_screens/screen_one/six_row.dart';
 import 'package:ui_screens/screen_one/third_row.dart';
-import 'package:ui_screens/screen_two/TwoContainer.dart';
-import 'package:ui_screens/screen_two/bottom_nav_bar.dart';
-import 'package:ui_screens/screen_two/drawer.dart';
+import 'package:ui_screens/screen_two/main_page.dart';
+import 'package:ui_screens/test_screen_two/bottom_nav_bar.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -27,16 +28,16 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: MainPage(),
 
-      //BottomNavBar(),
-
-      //MyPage(),
-
-      //const MyHomePage(),
     );
   }
 }
+
+
+
+
+
 
 // class MyHomePage extends StatefulWidget {
 //   const MyHomePage({super.key,});
