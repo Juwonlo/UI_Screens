@@ -6,7 +6,11 @@ import 'package:ui_screens/screen_two/second_page.dart';
 import 'package:ui_screens/screen_two/third_page.dart';
 
 class MainPage extends StatefulWidget {
-  const MainPage({Key? key}) : super(key: key);
+
+  final  zoomController;
+
+
+  const MainPage({Key? key, this.zoomController}) : super(key: key);
 
   @override
   State<MainPage> createState() => _MainPageState();
