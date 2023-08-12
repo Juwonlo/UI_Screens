@@ -8,9 +8,12 @@ import 'package:ui_screens/screen_two/third_page.dart';
 class MainPage extends StatefulWidget {
 
   final  zoomController;
+  final bool isDrawerOpen;
 
 
-  const MainPage({Key? key, this.zoomController}) : super(key: key);
+  const MainPage({Key? key, this.zoomController,
+    required this.isDrawerOpen,
+  }) : super(key: key);
 
   @override
   State<MainPage> createState() => _MainPageState();
@@ -31,7 +34,9 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       body: Stack(
           children: <Widget>[
-            _screens[_currentIndex],
+            Container(
+                child: _screens[_currentIndex],
+            ),
             Positioned(
               bottom: 50,
               left: 20,

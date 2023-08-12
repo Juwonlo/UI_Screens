@@ -7,6 +7,7 @@ import 'package:ui_screens/screen_one/second_row.dart';
 import 'package:ui_screens/screen_one/six_row.dart';
 import 'package:ui_screens/screen_one/third_row.dart';
 import 'package:ui_screens/screen_two/main_page.dart';
+import 'package:ui_screens/screen_two/zoom_drawer.dart';
 import 'package:ui_screens/test_screen_two/bottom_nav_bar.dart';
 
 
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: MainPage(),
+      home: MyZoomPage(),
 
     );
   }

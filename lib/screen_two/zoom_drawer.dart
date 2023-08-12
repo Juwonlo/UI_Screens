@@ -14,6 +14,15 @@ class MyZoomPage extends StatefulWidget {
 class _MyZoomPageState extends State<MyZoomPage> {
 
   final _drawerController = ZoomDrawerController();
+  bool _isDrawerOpen = true;
+
+
+  // void _handleDrawerStateChange(bool isOpen) {
+  //   setState(() {
+  //     _isDrawerOpen = isOpen;
+  //   });
+  // }
+
 
   @override
   Widget build(BuildContext context) {
@@ -21,15 +30,23 @@ class _MyZoomPageState extends State<MyZoomPage> {
       body: ZoomDrawer(
         controller: _drawerController,
         style: DrawerStyle.style1,
-        mainScreen: MainPage(zoomController: _drawerController,),
+        mainScreen: MainPage(zoomController: _drawerController,isDrawerOpen: _isDrawerOpen,
+              //handleDrawerStateChange: _handleDrawerStateChange,
+            ),
         menuScreen: MyMenuScreen(),
-        borderRadius: 24.0,
+        borderRadius: 20.0,
         showShadow: true,
         angle: 0.0,
+
+
+        //slideWidth: MediaQuery.of(context).size.width*(ZoomDrawer.isRTL()? .45: 0.65),
+       // slideWidth: MediaQuery.of(context).size.width * 0.65,
+         //   (ZoomDrawer.isRTL() ? .45 : 0.65),
+
         // backgroundColor: Colors.grey[300],
         // slideWidth: MediaQuery.of(context).size.width *
         //     (ZoomDrawer.isRTL() ? .45 : 0.65),
-        openCurve: Curves.fastOutSlowIn,
+        openCurve: Curves.decelerate,
         closeCurve: Curves.bounceIn,
       ),
     );
@@ -38,7 +55,19 @@ class _MyZoomPageState extends State<MyZoomPage> {
 
   Widget MyMenuScreen(){
     return Scaffold(
-
+         body: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Column(
+             children: <Widget>[
+               IconButton(
+                 icon: Icon(Icons.menu),
+                 onPressed: () {
+                   _drawerController.toggle!();
+                 },
+               ),
+             ],
+           ),
+         ),
     );
   }
 }

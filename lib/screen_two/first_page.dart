@@ -16,6 +16,12 @@ class _DashBoardPageState extends State<DashBoardPage> {
       width: MediaQuery.sizeOf(context).width,
       height: MediaQuery.sizeOf(context).height,
       color: AppColor.secondaryColor,
+      child: Column(
+        children: [
+
+        ],
+      ),
+
     );
   }
 }
