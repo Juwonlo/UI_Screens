@@ -39,8 +39,8 @@ class _MainPageState extends State<MainPage> {
             ),
             Positioned(
               bottom: 50,
-              left: 20,
-              right: 20,
+              left: 35,
+              right: 32,
 
               child: Stack(
                 children: [
