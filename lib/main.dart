@@ -6,6 +6,7 @@ import 'package:ui_screens/screen_one/last_row.dart';
 import 'package:ui_screens/screen_one/second_row.dart';
 import 'package:ui_screens/screen_one/six_row.dart';
 import 'package:ui_screens/screen_one/third_row.dart';
+import 'package:ui_screens/screen_two/dropdown_row.dart';
 import 'package:ui_screens/screen_two/main_page.dart';
 import 'package:ui_screens/screen_two/zoom_drawer.dart';
 import 'package:ui_screens/test_screen_two/bottom_nav_bar.dart';
@@ -30,7 +31,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: MyZoomPage(),
-
     );
   }
 }

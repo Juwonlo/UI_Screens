@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:ui_screens/screen_one/constant.dart';
 import 'package:ui_screens/screen_two/bottom_container.dart';
+import 'package:ui_screens/screen_two/dropdown_row.dart';
+import 'package:ui_screens/screen_two/horizontal_container.dart';
 
 
 class DashBoardPage extends StatefulWidget {
@@ -22,8 +24,12 @@ class _DashBoardPageState extends State<DashBoardPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
-            SizedBox(height: MediaQuery.sizeOf(context).height / 1.5,),
+             Padding(
+               padding:  EdgeInsets.only(left: 8.0),
+               child: GridContains(),
+             ),
+           SizedBox(height: 20,),
+           // SizedBox(height: MediaQuery.sizeOf(context).height / 1.5,),
             Padding(padding: EdgeInsets.only(left:30),
               child: Container(
                 width: 200,
@@ -38,6 +44,10 @@ class _DashBoardPageState extends State<DashBoardPage> {
                 ),
               ),
             ),
+            SizedBox(height: 10,),
+      Padding(padding: EdgeInsets.only(left:30, right:30),
+        child: RowDropDown(),
+      ),
          SizedBox(height: 10,),
          BottomCon(),
           ],
