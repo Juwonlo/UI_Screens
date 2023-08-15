@@ -81,7 +81,7 @@ class _RowDropDownState extends State<RowDropDown> {
         Container(
           //alignment: Alignment.center,
           height: 40,
-          width: 153,
+          width: 157,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
             color: AppColor.primaryColor,
