@@ -3,6 +3,7 @@ import 'package:ui_screens/screen_one/constant.dart';
 import 'package:ui_screens/screen_two/bottom_container.dart';
 import 'package:ui_screens/screen_two/dropdown_row.dart';
 import 'package:ui_screens/screen_two/horizontal_container.dart';
+import 'package:ui_screens/screen_two/the_flow_chart.dart';
 
 
 class DashBoardPage extends StatefulWidget {
@@ -24,6 +25,30 @@ class _DashBoardPageState extends State<DashBoardPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            SizedBox(height: 20,),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Container(
+                    width: 195,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: <Widget>[
+                        Icon(Icons.menu),
+                        SecondaryText(
+                            size: 15,
+                            text: 'BUSINESS SUMMARY')
+                      ],
+                    ),
+                  ),
+                  SecondaryText(
+                      size: 15,
+                      text: 'SERVICEMAN')
+                ],
+              ),
+            ),
              Padding(
                padding:  EdgeInsets.only(left: 8.0),
                child: GridContains(),
@@ -49,6 +74,8 @@ class _DashBoardPageState extends State<DashBoardPage> {
         child: RowDropDown(),
       ),
          SizedBox(height: 10,),
+         LineChartContent(),
+         SizedBox(height: 15,),
          BottomCon(),
           ],
         ),
