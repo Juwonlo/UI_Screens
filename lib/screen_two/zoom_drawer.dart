@@ -30,7 +30,8 @@ class _MyZoomPageState extends State<MyZoomPage> {
     return Scaffold(
       body: ZoomDrawer(
         controller: _drawerController,
-        style: DrawerStyle.style1,
+        style: DrawerStyle.defaultStyle,
+        menuBackgroundColor: AppColor.secondaryColor,
         //style: DrawerStyleBuilder,
         mainScreen: MainPage(zoomController: _drawerController,isDrawerOpen: _isDrawerOpen,
               //handleDrawerStateChange: _handleDrawerStateChange,
@@ -38,7 +39,7 @@ class _MyZoomPageState extends State<MyZoomPage> {
         menuScreen: MyMenuScreen(),
         borderRadius: 20.0,
         showShadow: true,
-        angle: 0.0,
+        angle: -2.0,
         slideWidth: MediaQuery.of(context).size.width * 0.65,
 
 
