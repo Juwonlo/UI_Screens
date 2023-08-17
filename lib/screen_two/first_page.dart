@@ -27,6 +27,43 @@ class _DashBoardPageState extends State<DashBoardPage> {
           children: [
             SizedBox(height: 20,),
             Padding(
+              padding: const EdgeInsets.only(left: 15.0, right: 10, top: 10,bottom:10 ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Container(
+                    child: Center(
+                      child: Icon(
+                        Icons.dashboard_sharp,
+                        size: 30,
+                      ),
+                    ),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      color: AppColor.extraColor,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+                  Container(
+                    child: Center(
+                      child: Icon(
+                        Icons.notification_add,
+                        size: 30,
+                      ),
+                    ),
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      color: AppColor.extraColor,
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                  ),
+
+                ],
+              ),
+            ),
+            Padding(
               padding: const EdgeInsets.all(8.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,

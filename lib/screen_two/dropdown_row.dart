@@ -81,13 +81,12 @@ class _RowDropDownState extends State<RowDropDown> {
         Container(
           //alignment: Alignment.center,
           height: 40,
-          width: 175,
+          width: 180,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
             color: AppColor.primaryColor,
           ),
-          child: Align(
-            alignment: Alignment.center,
+          child: Center(
             child: ListTile(
               contentPadding: EdgeInsets.only(top: 0, left: 13, right: 5,bottom: 0),
               title: Text('Month: $selectedMonth',

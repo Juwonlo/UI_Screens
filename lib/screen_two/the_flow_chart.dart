@@ -5,7 +5,7 @@ import 'package:ui_screens/screen_one/constant.dart';
 
 List<LineChartBarData> lineChartBarData = [
   LineChartBarData(
-      color: Colors.white,
+      color: AppColor.primaryColor,
       isCurved: true,
       spots: [
         FlSpot(1, 8),
@@ -35,7 +35,7 @@ class LineChartContent extends StatelessWidget {
             color: AppColor.primaryColor,
             borderRadius: BorderRadius.circular(15),
           ),
-          child: Expanded(
+          //child: Expanded(
             child: Container(
               child: LineChart(
                 LineChartData(
@@ -118,7 +118,7 @@ class LineChartContent extends StatelessWidget {
               ),
             ),
       ),
-      ),
+      //),
     );
   }
 }
