@@ -1,6 +1,16 @@
 <<<<<<< HEAD
 # ui_screens
-- Building different beautiful User-Interface Screens with flutter
+- A collection of UI screens for showcasing different user interfaces and designs using Flutter.
+
+## Table of Contents
+
+- [About](#about)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Created the first screen
 - Used the basic widgets.
@@ -8,6 +18,12 @@
 ## Created the second screen 
 - Used a zoom drawer and other components.
 
+## Features
+
+- Responsive design
+- Modern and intuitive user interface
+- Customizable components
+- Theming options
 
 ## Getting Started
 
