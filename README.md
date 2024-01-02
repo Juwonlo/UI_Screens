@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # UI_screens
 - Building Beautiful UI Screens
 - This repository is a collection of UI screens designed to showcase different user interfaces and designs using Flutter.
@@ -34,6 +34,3 @@ A few resources to get you started if this is your first Flutter project:
 ## For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-=======
-
->>>>>>> d852b2b083ed350aafbba12f4cd21b323e92ae25
