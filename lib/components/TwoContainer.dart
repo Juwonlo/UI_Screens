@@ -212,8 +212,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:ui_screens/test_screen_two/drawer.dart';
-import 'package:ui_screens/test_screen_two/page_one.dart';
+import 'package:ui_screens/components/drawer.dart';
+import 'package:ui_screens/components/page_one.dart';
 
 
 class MyPage extends StatefulWidget {

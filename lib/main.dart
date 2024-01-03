@@ -1,16 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_screens/screen_one/dropdown.dart';
-import 'package:ui_screens/screen_one/first_container.dart';
-import 'package:ui_screens/screen_one/fourth_row.dart';
-import 'package:ui_screens/screen_one/last_row.dart';
-import 'package:ui_screens/screen_one/second_row.dart';
-import 'package:ui_screens/screen_one/six_row.dart';
-import 'package:ui_screens/screen_one/third_row.dart';
-import 'package:ui_screens/screen_two/dropdown_row.dart';
-import 'package:ui_screens/screen_two/main_page.dart';
-import 'package:ui_screens/screen_two/the_flow_chart.dart';
 import 'package:ui_screens/screen_two/zoom_drawer.dart';
-import 'package:ui_screens/test_screen_two/bottom_nav_bar.dart';
 
 
 
