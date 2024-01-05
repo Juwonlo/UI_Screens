@@ -18,12 +18,6 @@ class _MyZoomPageState extends State<MyZoomPage> {
   bool _isDrawerOpen = true;
 
 
-  // void _handleDrawerStateChange(bool isOpen) {
-  //   setState(() {
-  //     _isDrawerOpen = isOpen;
-  //   });
-  // }
-
 
   @override
   Widget build(BuildContext context) {
