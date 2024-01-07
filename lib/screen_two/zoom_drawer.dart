@@ -31,14 +31,6 @@ class _MyZoomPageState extends State<MyZoomPage> {
         showShadow: true,
         angle: -2.0,
         slideWidth: MediaQuery.of(context).size.width * 0.65,
-
-        //slideWidth: MediaQuery.of(context).size.width*(ZoomDrawer.isRTL()? .45: 0.65),
-        // slideWidth: MediaQuery.of(context).size.width * 0.65,
-        //   (ZoomDrawer.isRTL() ? .45 : 0.65),
-
-        //backgroundColor: Colors.grey[300],
-        // slideWidth: MediaQuery.of(context).size.width *
-        //     (ZoomDrawer.isRTL() ? .45 : 0.65),
         openCurve: Curves.decelerate,
         closeCurve: Curves.bounceIn,
       ),
