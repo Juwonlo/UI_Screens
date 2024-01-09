@@ -135,12 +135,4 @@ class AppColor {
   static const Color primaryColor = Color(0x77153302);
   static const Color secondaryColor = Color(0xe5eef6e8);
   static const Color extraColor = Color(0xffbad3a8);
-  // static LinearGradient colorgradient = const LinearGradient(
-  //   begin: Alignment.topRight,
-  //   end: Alignment.bottomLeft,
-  //   colors: [
-  //     Color(0xffa800ff),
-  //     Color(0xff2b62ff),
-  //   ],
-  // );
 }
