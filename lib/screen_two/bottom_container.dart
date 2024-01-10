@@ -144,10 +144,6 @@ class _BottomConState extends State<BottomCon> {
                                 ],
                               ),
                               ),
-                       //Text(
-                             //   items[index],
-                             //   style: TextStyle(color: Colors.white),
-                             // ),
                            ),
                            SizedBox(height: 8.0), // Adjust the height as needed
                          ],

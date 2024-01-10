@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_screens/screen_two/bottom_container.dart';
 import 'package:ui_screens/screen_two/zoom_drawer.dart';
 
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: MyZoomPage(),
+      home: BottomCon(),
     );
   }
 }
