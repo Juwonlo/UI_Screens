@@ -27,7 +27,6 @@ class LineChartContent extends StatelessWidget {
           color: AppColor.primaryColor,
           borderRadius: BorderRadius.circular(15),
         ),
-        //child: Expanded(
         child: Container(
           child: LineChart(
             LineChartData(
@@ -87,7 +86,6 @@ class LineChartContent extends StatelessWidget {
           ),
         ),
       ),
-      //),
     );
   }
 }
