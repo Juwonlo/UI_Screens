@@ -53,7 +53,7 @@ class _ThirdRowState extends State<ThirdRow> {
                         size: 20,
                       ),
                       title: PrimaryText(
-                        text: 'Come eteyeyhs wwww',
+                        text: 'Come',
                         size: 12,
                       ),
                     ),
